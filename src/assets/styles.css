@@ -1,3 +1,13 @@
-#colour-button {
+.colour-button {
   background: linear-gradient(104.42deg, #4745d0 0%, #2a27c9 60.23%);
+  box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.1) inset;
+  box-shadow: -4px -4px 4px 0px rgba(0, 0, 0, 0.1) inset;
+}
+
+.white-button {
+    border: 2px solid rgba(119, 128, 161, 1)
+}
+
+.line-height {
+    line-height: 100px;
 }
