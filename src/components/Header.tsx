@@ -18,7 +18,7 @@ const Header = () => {
             </ul>
             <div className="right flex flex-row gap-3">
                 <button className='white-button py-4 px-6 rounded-xl'>Contact</button>
-                <button className='colour-button py-4 px-6 text-white font-bold text-base rounded-xl'>My account</button>
+                <button className='colour-button py-4 px-6 text-white text-base rounded-xl'>My account</button>
             </div>
         </header>
      );

@@ -11,12 +11,12 @@
   :root {
     --background: #060714;
     --foreground: #DDE0E8;
-    --foreground1: #F2F3F6;
+    --foreground1: rgba(119, 128, 161, 1);
   }
 }
 
 body {
-  color: var(--foreground);
+  color: var(--foreground1);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
