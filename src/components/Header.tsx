@@ -3,20 +3,21 @@ import Logo from '@/assets/Logo.png';
 
 const Header = () => {
     return ( 
-        <header>
+        <header 
+        className='header flex justify-between items-center p-4'>
             <div className="left">
-            <Image src={Logo} alt="logo" width={34} height={34} />
+            <Image src={Logo} alt="logo" width={100} height={100} />
 
             </div>
-            <ul className="mid">
-                <li>Auctions</li>
-                <li>Roadmap</li>
-                <li>Discover</li>
-                <li>Community</li>
+            <ul className='mid flex flex-row'>
+                <li className='m-3'>Auctions</li>
+                <li className='m-3'>Roadmap</li>
+                <li className='m-3'>Discover</li>
+                <li className='m-3'>Community</li>
             </ul>
             <div className="right">
-                <button>Contact</button>
-                <button>My account</button>
+                <button className='py-4 px-6 border-white'>Contact</button>
+                <button className='py-4 px-6 text-white font-bold text-base bg-[]'>My account</button>
             </div>
         </header>
      );
