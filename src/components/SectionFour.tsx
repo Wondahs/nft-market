@@ -28,7 +28,7 @@ const SectionFour = () => {
                             className="mb-3"
                         />
                         <h6 className="text-white">Sollicitudin sapien</h6>
-                        <p className='text-sm ml-2'>Feature 1</p>
+                        <p className='text-sm'>Feature 1</p>
                     </div>
                     <div className="first-icon">
                         <Image
@@ -39,7 +39,7 @@ const SectionFour = () => {
                             className="mb-3"
                         />
                         <h6 className="text-white">Pulvinar metus</h6>
-                        <p className='text-sm ml-2'>Feature 1</p>
+                        <p className='text-sm'>Feature 1</p>
                     </div>
                 </div>
                 <div className="buttons right flex flex-row gap-8">
