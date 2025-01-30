@@ -2,22 +2,6 @@ import AuctionType from "@/config/typings";
 import TimeIcon from '@/assets/TimeIcon.svg';
 import Image from "next/image";
 
-// const LargeCard = ({imageSrc, price, desc, time, icons}: {imageSrc: string}) => {
-//     return (
-//         <div className="card flex p-5">
-//             <Image src={imageSrc} alt="" width={400} height={520} ></Image>
-//             <div className="text">
-//                 <p>{desc}</p>
-//                 <p className="price">{price}</p>
-//             </div>
-//             <div className="time"></div>
-//             <div className="bids"></div>
-//         </div>
-//      );
-// }
-
-// export default LargeCard;
-
 export default function LargeCard({
   auctionData,
 }: {
