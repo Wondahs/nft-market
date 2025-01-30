@@ -1,5 +1,4 @@
 import AuctionType from "@/config/typings";
-import SmallCard from "./SmallCard";
 import MidCard from "./MidCard";
 
 const TripleMidCard = () => {

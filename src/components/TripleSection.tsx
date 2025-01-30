@@ -1,4 +1,3 @@
-import Image from "next/image";
 import TripleCard from "./TrippleCard";
 import TripleMidCard from "./TripleCardMid";
 
