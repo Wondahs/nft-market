@@ -76,7 +76,7 @@ npm start
 
 ## Deployment
 
-LIVE DEMO: wondahs-nft-mart.vercel.app
+[LIVE DEMO](https://wondahs-nft-mart.vercel.app/)
 
 This project can be deployed to platforms like [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/).
 
