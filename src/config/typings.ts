@@ -1,8 +1,9 @@
 type AuctionType  = {
     imageSrc: string,
+    imageAlt: string,
     desc: string,
     price: number,
-    endTime: string,
+    time: string,
     avatars: Array<string>,
     bidders: number,
 }
