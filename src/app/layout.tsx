@@ -15,6 +15,7 @@ const sora = Sora({
 export const metadata: Metadata = {
   title: "NFT Market",
   description: "A New NFT Experience",
+  icons: '/favicon.png'
 };
 
 export default function RootLayout({

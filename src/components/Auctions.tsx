@@ -1,6 +1,7 @@
 import LargeCard from "./LargeCard";
 import AuctionType from "@/config/typings";
 
+// Get data from backend API
 const auctions: Array<AuctionType> = [
     // {
     //     imageSrc: '/assets/auctionImgs/auction1/Image.png',
