@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NFT Marketplace
 
-## Getting Started
+An NFT Marketplace designed using Next.js, TypeScript, and Tailwind CSS. This project provides a sleek and modern UI for buying, selling, and exploring NFTs.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Next.js & TypeScript**: Fast and efficient server-side rendering.
+- **Tailwind CSS**: Responsive and modern UI styling.
+- **Dynamic Routing**: Seamless navigation across pages.
+- **Reusable Components**: Modular design for easy maintenance.
+
+## Installation & Setup
+
+To get started, follow these steps:
+
+### Prerequisites
+
+- Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) installed.
+
+### Clone the Repository
+
+```sh
+git clone https://github.com/Wondahs/nft-market.git
+cd nft-market
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Install Dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Using npm:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```sh
+npm install
+```
 
-## Learn More
+Using yarn:
 
-To learn more about Next.js, take a look at the following resources:
+```sh
+yarn install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Run the Development Server
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```sh
+npm run dev
+```
 
-## Deploy on Vercel
+Or using yarn:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```sh
+yarn dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The application will be available at `http://localhost:3000`.
+
+## Building for Production
+
+To create an optimized production build, run:
+
+```sh
+npm run build
+npm start
+```
+
+## Folder Structure
+
+```
+📂 nft-marketplace
+├── 📂 components  # Reusable UI components
+├── 📂 pages       # Next.js pages
+├── 📂 styles      # Tailwind CSS styles
+├── 📂 public      # Static assets
+├── 📜 package.json
+├── 📜 tsconfig.json
+└── 📜 next.config.js
+```
+
+## Deployment
+
+This project can be deployed to platforms like [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/).
+
+### To deploy with Vercel:
+
+1. Install Vercel CLI globally if you haven't already:
+   ```sh
+   npm install -g vercel
+   ```
+2. Run the deployment command:
+   ```sh
+   vercel
+   ```
+3. Follow the on-screen instructions to link your project and deploy.
+4. Your application will be live at the URL provided by Vercel.
+
+## Contributing
+
+Feel free to fork the repository and submit pull requests. Contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License.
+
